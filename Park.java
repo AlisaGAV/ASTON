@@ -21,11 +21,13 @@ public class Park {
     }
     
     public static void main(String[] args) {
-    Park.Attraction attraction1 = new Park().new Attraction("Rollercoaster", "10:00 - 18:00", 20.0);
-    Park.Attraction attraction2 = new Park().new Attraction("Ferris Wheel", "11:00 - 20:00", 15.0);
-    
+    Park.Attraction attraction1 = new Park().new Attraction("Чертово колесо", "10:00 - 20:00", 10.0);
+    Park.Attraction attraction2 = new Park().new Attraction("Американские горки", "11:00 - 18:00", 20.0);
+    Park.Attraction attraction3 = new Park().new Attraction("Лабиринт", "11:00 - 19:00", 15.0);
+
     attraction1.displayAttractionInfo();
     attraction2.displayAttractionInfo();
+    attraction3.displayAttractionInfo();
     }
     
     public class Attraction {
