@@ -1,5 +1,3 @@
-import static java.lang.System.*;
- 
 class Plate {
  
     public int food;
@@ -20,7 +18,7 @@ class Plate {
     }
  
     void info() {
-        out.println("plate: " + food);
+        System.out.println("plate: " + food);
     }
 }
 class Cat {
@@ -36,7 +34,7 @@ class Cat {
  
     void info() {
         String isHungry = !hungry ? "сыт" : "голоден";
-        out.println(name + ": " + isHungry);
+        System.out.println(name + ": " + isHungry);
     }
  
     void eat(Plate plate) {
